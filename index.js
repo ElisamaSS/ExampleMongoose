@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
+//Conexão com o MongoDB
 const app = express();
 
 (async () => {
